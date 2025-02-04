@@ -25,4 +25,5 @@ const InputComponent = ({ inputValue, setinputValue }) => {
 };
 const DisplayComponent = ({ inputValue }) => {
   return <p>The value of the input component is :{inputValue} </p>;
+  
 };
