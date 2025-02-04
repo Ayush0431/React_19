@@ -6,6 +6,7 @@ import React from "react";
 // import { EventPropagation } from "./components/EventPropagation";
 // import {State} from './components/hooks/State';
 import { LiftingStateUp } from './components/LiftingStateUp';
+import { ToogleSwitch } from "./components/Projects/ToggleSwitch/ToggleSwitch";
 
 export const App = () => {
   return (
@@ -17,7 +18,8 @@ export const App = () => {
       {/* <Eventprops/> */}
       {/* <EventPropagation /> */}
       {/* <State/> */}
-      <LiftingStateUp/>
+      {/* <LiftingStateUp/> */}
+      <ToogleSwitch/>
    
 
     </section>
