@@ -16,7 +16,7 @@ Welcome to my React 19 Playlist! 🎉 This repository contains a collection of R
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/react-19-playlist.git
+git clone https://github.com/Ayush0431/react-19-playlist.git
 cd react-19-playlist
 2️⃣ Install Dependencies
 
