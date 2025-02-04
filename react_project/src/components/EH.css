@@ -1,0 +1,114 @@
+
+.main-div {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .g-div {
+    width: 100rem;
+    height: 50rem;
+    border: 1rem solid #000;
+    background-color: #85c1e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .p-div {
+    width: 80rem;
+    height: 30rem;
+    border: 1rem solid #000;
+    background-color: #82e0aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .c-div {
+    width: 60rem;
+    height: 10rem;
+    border: 1rem solid #000;
+    background-color: #f7dc6f;
+    font-size: 2rem;
+  }
+  
+  .events-handling {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  
+  .container h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  
+  button {
+    font-size: 2rem;
+    padding: 1.2rem 2.4rem;
+    background-color: #82e0aa;
+  }
+  
+  button:nth-child(even) {
+    font-size: 2rem;
+    padding: 1.2rem 2.4rem;
+    background-color: #82e0aa;
+  }
+  
+  button:nth-child(odd) {
+    font-size: 2rem;
+    padding: 1.2rem 2.4rem;
+    background-color: #f7dc6f;
+  }
+  
+  
+  /* Our actual React JS code
+  import "./EV.css";
+  
+  export const EventHandling = () => {
+    //   function handleButtonClick() {
+    //     alert("Hey I am onClick Event");
+    //   }
+  
+    const handleButtonClick = (event) => {
+      console.log(event);
+      console.log(event.target);
+      console.log(event.type); // "click"
+      alert("Hey I am onClick Event");
+    };
+  
+    const handleWelcomeUser = (user) => {
+      console.log(`Hey ${user}, Welcome`);
+    };
+  
+    return (
+      <>
+        {/* // ?  Function Components with Named Functions - Subscribe to Thapa Technical Youtube Channel  */
+        /* Remember how we haven't called this function, if you call this function here  then it will run without even clicking. You just need to pass reference and not call here. */
+        /* <button onClick={handleButtonClick}>click Me</button>
+        <br /> */
+        /* In React, event handlers receive the event object as an argument by default. However, when you use an arrow function directly in the onClick attribute without passing the event explicitly, React doesn't pass the event object to your handler function. This is because the arrow function creates a new function and calls your handler without passing any arguments. */
+        /* <button onClick={(event) => handleButtonClick(event)}>click Me 2 </button>
+        <br /> */
+        /* /* //? Inline Event Handlers} */
+        /* <button onClick={(event) => console.log(event)}>Inline Function</button>
+        <br /> */
+        /* //? Function Components with Inline Arrow Functions */
+        /* <button onClick={() => alert("Hey I am inline evnt function")}>
+          Inline Arr fun
+        </button> */
+        /* {/* //? Passing Arguments to Event Handlers } */
+        /* <button onClick={handleWelcomeUser("vinod")}>click Me</button> */
+        /* <button onClick={() => handleWelcomeUser("vinod")}>click Me</button>
+        <button onClick={() => handleWelcomeUser("Ram")}>click Me</button>
+      </>
+    );
+  }; */
+/*   
+  eventHandlingReact.txt
+  Displaying eventHandlingReact.txt. */ 
