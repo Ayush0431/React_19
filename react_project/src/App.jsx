@@ -5,8 +5,11 @@ import React from "react";
 // import { Eventprops } from "./components/Eventprops";
 // import { EventPropagation } from "./components/EventPropagation";
 // import {State} from './components/hooks/State';
-import { LiftingStateUp } from './components/LiftingStateUp';
-import { ToogleSwitch } from "./components/Projects/ToggleSwitch/ToggleSwitch";
+// import { LiftingStateUp } from './components/LiftingStateUp';
+// import { ToogleSwitch } from "./components/Projects/ToggleSwitch/ToggleSwitch";
+// import { Challenge } from "./components/hooks/Challenge";
+import { Login } from "./components/hooks/Login";
+import { Contact } from "./components/hooks/Contact";
 
 export const App = () => {
   return (
@@ -19,7 +22,9 @@ export const App = () => {
       {/* <EventPropagation /> */}
       {/* <State/> */}
       {/* <LiftingStateUp/> */}
-      <ToogleSwitch/>
+      {/* <ToogleSwitch/> */}
+      <Login/>
+      {/* <Contact/> */}
    
 
     </section>
